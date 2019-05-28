@@ -1,0 +1,253 @@
+/* styles */
+/* called by your view template */
+
+* 
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: silver !important;
+  min-height: 100vh;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.bold {
+  padding-top: 10px;
+  text-align:center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white !important;
+}
+
+#dof{
+  min-height: 700px;
+  background: silver;
+}
+
+#content{
+  left: 50%;
+  margin-top: 100px;
+  transform: translate(-50%);
+  position: absolute;
+  background: #333333;
+  max-width: 1000px;
+  width: 90%;
+  min-width: 750px;
+  doverflow-x: hidden;
+  min-height: 437px;
+}
+
+.line{
+  color: white;
+  font-size: 12px;
+}
+
+.line2{
+  color: white;
+  font-size: 12px;
+}
+
+.line2 input{
+  background: #333333; 
+  width:100px;
+  height: 18px;
+  border: 1px solid gray;
+  border-radius: 0px;
+}
+
+to{
+  margin-left: 50px;
+  margin-right: 8px;
+}
+from{
+  margin-right: 8px;
+}
+
+.b{
+  background: #595959;
+  padding: 3px;
+  color: white;
+  font-weight: pbold;
+  margin-left: 3px;
+}
+
+.bt{
+  padding-left: 15px;
+}
+
+.b:hover{
+  cursor: pointer;
+  color: gray;
+}
+
+.rowe li{
+  display: inline-block;
+}
+
+.graphs{
+  height: 250px;
+  width: 700px;
+  background: white;
+  position: absolute;
+  margin-top: 50px;
+  left:50%;
+  transform:translate(-50%);
+}
+
+.graphs2{
+  height: 300px;
+}
+
+#box{
+  margin-left: 0px;
+}
+
+.box2{
+  background: white;
+  border: 1px solid green;
+  border-left: 5px solid green;
+  margin-left: 15px;
+  width: 300px;
+  height: 100px; 
+}
+
+#box2{
+  border-left: 5px solid silver;
+}
+
+#box2:hover{
+ border-left: 5px solid orangered;
+}
+
+.bt2{
+  font-size: 30px;
+  padding-left: 15px;
+  margin-bottom: -3px;
+}
+
+.bt3{
+  padding-left: 15px;
+  color: gray;
+  font-size: 11px;
+}
+
+.fa-close:hover{
+  cursor: pointer;
+  color: silver;
+}
+
+#close i{
+  padding-left: 25px;
+}
+
+#box #i1{
+  max-width: 200px;
+}
+
+#box #s1{
+  max-width: 50px;
+  margin-left: -10px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.bt2{
+  margin-left:-15px;
+}
+
+
+#moo li{display: inline}
+
+
+#tooltip {	
+  position: absolute;			
+  min-width: 100px;					
+  padding: 5px;				
+  font-size: 13px;
+  font-family: arial;
+  background: white;	
+  border-radius: 5px;		
+  text-align: left;
+  border: 1px solid silver;
+}
+
+.xL{
+  color: red !important;
+}
+
+
+#a{
+ text-align:center;
+ background: silver;
+ margin-bottom: 0px;
+ padding-top: 30px;
+ padding-bottom: 50px;
+}
+
+#wordz{display:none;}
+
+.bp{
+  margin-left: 0px;
+}
+
+.bt2:hover{
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: inline;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+efooter {
+  margin-top: 0px;
+  padding-top: 25px;
+  padding-left: 25px;
+  position: absolute;
+  transform: translate(50%);
+  right: 50%;
+  margin-top: 600px;
+}
+
+
+@media(max-width: 990px){
+  to{margin-left: 5px;}
+
+}
