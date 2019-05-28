@@ -2,7 +2,7 @@
 
 *Analyze the Stock Market*
 
-This is an app that allows you to view a graph displaying the recent trend lines for each added stock, add new stocks by their symbol name, remove stocks, and see changes in real-time when any other user adds or removes a stock.
+This is an app that allows you to view a graph displaying the recent trend lines for each added stock, add new stocks by their symbol name, remove stocks, and see changes when any other user adds or removes a stock.
 
 
 ...
