@@ -19,7 +19,7 @@
     "is-svg": "^4.0.0",
     "d3": "^5.9.1",
     "jsdom": "^14.0.0",
-    "mongodb": "^2.1.11",
+    "mongodb": "^3.6.1",
     "body-parser": "^1.18.3",
     "browser-refresh": "^1.7.3",
     "reload": "^2.4.0",
